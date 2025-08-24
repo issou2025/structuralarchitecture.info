@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- English Pages -->
+  <url>
+    <loc>https://structuralarchitecture.info/en/</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/services.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/services.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/services.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/plans.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/plans.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/plans.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/portfolio.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/portfolio.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/about.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/about.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/faq.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/faq.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/pricing.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/pricing.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/pricing.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/blog.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/blog.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/blog.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/contact.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/contact.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/privacy.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/privacy.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/terms.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/terms.html" />
+  </url>
+  
+  <!-- French Pages -->
+  <url>
+    <loc>https://structuralarchitecture.info/fr/</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/services.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/services.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/services.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/plans.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/plans.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/plans.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/portfolio.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/portfolio.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/about.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/about.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/faq.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/faq.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/faq.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/pricing.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/pricing.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/pricing.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/blog.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/blog.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/blog.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/contact.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/contact.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/privacy.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/privacy.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/fr/terms.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/terms.html" />
+  </url>
+  
+  <!-- Blog Posts - English -->
+  <url>
+    <loc>https://structuralarchitecture.info/en/blog/foundation-design-niger-climate.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/blog/conception-fondations-climat-niger.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/blog/foundation-design-niger-climate.html" />
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/blog/bim-revolution-west-africa.html</loc>
+    <lastmod>2024-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://structuralarchitecture.info/en/blog/sustainable-building-practices-africa.html</loc>
+    <lastmod>2024-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Blog Posts - French -->
+  <url>
+    <loc>https://structuralarchitecture.info/fr/blog/conception-fondations-climat-niger.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/blog/conception-fondations-climat-niger.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/blog/foundation-design-niger-climate.html" />
+  </url>
+  
+</urlset>

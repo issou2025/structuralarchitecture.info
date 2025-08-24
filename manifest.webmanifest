@@ -1,0 +1,40 @@
+{
+  "name": "Structural Architecture - Professional Engineering Services",
+  "short_name": "Structural Architecture",
+  "description": "Professional structural engineering, architectural plans, site supervision and consulting services in Niger and West Africa.",
+  "lang": "en",
+  "start_url": "/en/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0B5FFF",
+  "background_color": "#F8FAFC",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "engineering", "construction"],
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/images/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

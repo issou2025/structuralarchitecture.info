@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Structural Architecture</title>
+    <meta name="description" content="Contact Structural Architecture for professional engineering services, building plans, and construction consultation in Niger and West Africa.">
+    <meta name="keywords" content="contact structural engineer, Niger engineering services, construction consultation, building plans quote">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://structuralarchitecture.info/en/contact.html">
+    <meta property="og:title" content="Contact Us - Structural Architecture">
+    <meta property="og:description" content="Get in touch for professional engineering services and building plans in Niger and West Africa.">
+    <meta property="og:image" content="https://structuralarchitecture.info/assets/images/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://structuralarchitecture.info/en/contact.html">
+    
+    <!-- Alternate language versions -->
+    <link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/contact.html">
+    <link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/contact.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="./" class="logo">Structural Architecture</a>
+                
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li><a href="./" class="nav-link">Home</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="plans.html" class="nav-link">Plans</a></li>
+                        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+                    
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="fr">FR</button>
+                    </div>
+                    
+                    <button class="theme-switcher" title="Toggle dark mode">🌙</button>
+                </nav>
+                
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Contact Us</h1>
+                    <p>Ready to start your construction project? Get in touch for professional engineering services, building plans, and expert consultation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="section">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2>Get In Touch</h2>
+                        <p>Whether you need structural calculations, building plans, site supervision, or engineering consultation, we're here to help bring your project to life.</p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div>
+                                    <h4>Phone & WhatsApp</h4>
+                                    <p><a href="tel:+22796380877">+227 96 38 08 77</a></p>
+                                    <p><a href="https://wa.me/22796380877?text=Hello, I would like to discuss my construction project" class="btn btn-secondary btn-sm">💬 WhatsApp</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">✉️</div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:bacseried@gmail.com">bacseried@gmail.com</a></p>
+                                    <p>Response time: Usually within 24 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">🌍</div>
+                                <div>
+                                    <h4>Service Areas</h4>
+                                    <p>Niger, Mali, Burkina Faso, Chad, Nigeria</p>
+                                    <p>Remote consultation available worldwide</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <div>
+                                    <h4>Business Hours</h4>
+                                    <p>Monday - Saturday: 8:00 AM - 6:00 PM</p>
+                                    <p>Sunday: Emergency consultations only</p>
+                                    <p><small>West Africa Time (WAT)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div>
+                        <h3>Send Us a Message</h3>
+                        <form class="card" data-form-type="contact" action="https://formspree.io/f/your-form-id" method="POST">
+                            <!-- Honeypot field for spam protection -->
+                            <input type="text" name="website" style="display: none;" tabindex="-1" autocomplete="off">
+                            
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service" class="form-label">Service Needed *</label>
+                                <select id="service" name="service" class="form-select" required>
+                                    <option value="">Select a service</option>
+                                    <option value="structural-design">Structural Design & Calculations</option>
+                                    <option value="building-plans">Building Plans</option>
+                                    <option value="site-supervision">Site Supervision</option>
+                                    <option value="bim-modeling">BIM/Revit Modeling</option>
+                                    <option value="consultation">General Consultation</option>
+                                    <option value="training">Training & Workshops</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="project-type" class="form-label">Project Type</label>
+                                <select id="project-type" name="project_type" class="form-select">
+                                    <option value="">Select project type</option>
+                                    <option value="residential-house">Residential House</option>
+                                    <option value="duplex-r1">Duplex (R+1)</option>
+                                    <option value="commercial">Commercial Building</option>
+                                    <option value="industrial">Industrial Facility</option>
+                                    <option value="renovation">Renovation/Extension</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget" class="form-label">Budget Range (Optional)</label>
+                                <select id="budget" name="budget" class="form-select">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-1m">Under 1M FCFA</option>
+                                    <option value="1m-5m">1M - 5M FCFA</option>
+                                    <option value="5m-10m">5M - 10M FCFA</option>
+                                    <option value="10m-20m">10M - 20M FCFA</option>
+                                    <option value="over-20m">Over 20M FCFA</option>
+                                    <option value="consultation-only">Consultation Only</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="timeline" class="form-label">Project Timeline</label>
+                                <select id="timeline" name="timeline" class="form-select">
+                                    <option value="">When do you need this?</option>
+                                    <option value="urgent">Urgent (Within 1 week)</option>
+                                    <option value="1-2-weeks">1-2 weeks</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="2-3-months">2-3 months</option>
+                                    <option value="flexible">Flexible timeline</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Project Details *</label>
+                                <textarea id="message" name="message" class="form-textarea" placeholder="Please describe your project, requirements, location, and any specific needs..." required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" name="newsletter" value="yes">
+                                    Subscribe to our newsletter for engineering tips and updates
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            
+                            <div class="form-success" style="display: none;"></div>
+                            <div class="form-error" style="display: none;"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Contact -->
+        <section class="section bg-light">
+            <div class="container text-center">
+                <h2>Need Urgent Engineering Consultation?</h2>
+                <p>For urgent structural assessments, construction emergencies, or time-sensitive projects, contact us immediately via WhatsApp or phone.</p>
+                
+                <div class="hero-actions">
+                    <a href="https://wa.me/22796380877?text=URGENT: I need immediate engineering consultation" class="btn btn-secondary btn-lg">🚨 Emergency WhatsApp</a>
+                    <a href="tel:+22796380877" class="btn btn-primary btn-lg">📞 Call Now</a>
+                </div>
+                
+                <p class="mt-3"><small>Emergency consultation available 24/7 for structural safety concerns</small></p>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+                
+                <div class="grid-2">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How quickly can you provide a quote?
+                            <span class="faq-icon">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We typically provide initial quotes within 24-48 hours after receiving your project details. For urgent projects, we can provide preliminary estimates within a few hours via WhatsApp.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do you work on small residential projects?
+                            <span class="faq-icon">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! We handle projects of all sizes, from small residential renovations to large commercial developments. Every project receives the same professional attention to detail.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can you provide services outside Niger?
+                            <span class="faq-icon">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely! We provide services throughout West Africa and offer remote consultation worldwide. Site visits can be arranged for projects in neighboring countries.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What information do you need to start?
+                            <span class="faq-icon">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We need: project location, building type, approximate size, budget range, timeline, and any specific requirements. Site photos or existing plans are helpful but not required initially.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Structural Architecture</h3>
+                    <p>Professional structural engineering and architectural services across Niger and West Africa.</p>
+                    
+                    <div class="contact-info">
+                        <p>📞 <a href="tel:+22796380877">+227 96 38 08 77</a></p>
+                        <p>✉️ <a href="mailto:bacseried@gmail.com">bacseried@gmail.com</a></p>
+                        <p>💬 <a href="https://wa.me/22796380877">WhatsApp</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="services.html#structural-design">Structural Design</a></li>
+                        <li><a href="services.html#plans">Building Plans</a></li>
+                        <li><a href="services.html#supervision">Site Supervision</a></li>
+                        <li><a href="services.html#bim">BIM Modeling</a></li>
+                        <li><a href="services.html#training">Training</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                    
+                    <h4>Languages</h4>
+                    <div class="language-switcher">
+                        <a href="../en/contact.html" class="lang-btn active">English</a>
+                        <a href="../fr/contact.html" class="lang-btn">Français</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Structural Architecture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Completed Projects | Structural Architecture</title>
+    <meta name="description" content="Explore our portfolio of completed structural engineering and architectural projects across Niger and West Africa. Residential, commercial, and specialized construction projects.">
+    <meta name="keywords" content="structural engineering portfolio, construction projects Niger, architectural projects, building portfolio, civil engineering projects, completed buildings">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://structuralarchitecture.info/en/portfolio.html">
+    <meta property="og:title" content="Portfolio - Completed Projects | Structural Architecture">
+    <meta property="og:description" content="Discover our portfolio of successful structural engineering and construction projects across Niger and West Africa.">
+    <meta property="og:image" content="https://structuralarchitecture.info/assets/images/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://structuralarchitecture.info/en/portfolio.html">
+    
+    <!-- Alternate language versions -->
+    <link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/portfolio.html">
+    <link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/portfolio.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Structural Architecture Portfolio",
+        "description": "Portfolio of completed structural engineering and architectural projects",
+        "creator": {
+            "@type": "Person",
+            "name": "Issoufou Abdou Chefou",
+            "jobTitle": "Civil Engineer"
+        },
+        "provider": {
+            "@type": "Organization",
+            "name": "Structural Architecture"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="./" class="logo">Structural Architecture</a>
+                
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li><a href="./" class="nav-link">Home</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="plans.html" class="nav-link">Plans</a></li>
+                        <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="fr">FR</button>
+                    </div>
+                    
+                    <button class="theme-switcher" title="Toggle dark mode">🌙</button>
+                </nav>
+                
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Our Portfolio of Completed Projects</h1>
+                    <p>Discover our successful structural engineering and architectural projects across Niger and West Africa. From residential homes to commercial buildings and specialized structures.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="section-sm">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card card text-center">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card card text-center">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Satisfied Clients</div>
+                    </div>
+                    <div class="stat-card card text-center">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card card text-center">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Cities Served</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-5">Project Gallery</h2>
+                
+                <!-- Filter Buttons -->
+                <div class="filter-buttons text-center mb-5">
+                    <button class="portfolio-filter-btn btn btn-outline active" data-filter="all">All Projects</button>
+                    <button class="portfolio-filter-btn btn btn-outline" data-filter="residential">Residential</button>
+                    <button class="portfolio-filter-btn btn btn-outline" data-filter="commercial">Commercial</button>
+                    <button class="portfolio-filter-btn btn btn-outline" data-filter="specialized">Specialized</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid">
+                    <!-- Residential Projects -->
+                    <div class="portfolio-item" data-category="residential" id="project-1">
+                        <img src="/assets/images/project-residential-1.jpg" alt="Modern family house in Niamey" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Modern Family House</h4>
+                                <p>Niamey, Niger • 2024</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Residential</span>
+                                    <span class="project-tag">R+1 Design</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-1')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="residential">
+                        <img src="/assets/images/project-residential-2.jpg" alt="Traditional house with modern amenities" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Traditional Modern House</h4>
+                                <p>Maradi, Niger • 2024</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Residential</span>
+                                    <span class="project-tag">Single Storey</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-2')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="residential">
+                        <img src="/assets/images/project-duplex-1.jpg" alt="Luxury duplex project" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Luxury Duplex Villa</h4>
+                                <p>Zinder, Niger • 2023</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Residential</span>
+                                    <span class="project-tag">Luxury</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-3')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Commercial Projects -->
+                    <div class="portfolio-item" data-category="commercial" id="project-2">
+                        <img src="/assets/images/project-commercial-1.jpg" alt="Commercial building in Dosso" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Commercial Center</h4>
+                                <p>Dosso, Niger • 2024</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Commercial</span>
+                                    <span class="project-tag">Mixed-Use</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-4')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="commercial">
+                        <img src="/assets/images/project-commercial-2.jpg" alt="Office building project" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Office Complex</h4>
+                                <p>Niamey, Niger • 2023</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Commercial</span>
+                                    <span class="project-tag">Office</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-5')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Specialized Projects -->
+                    <div class="portfolio-item" data-category="specialized">
+                        <img src="/assets/images/project-school-1.jpg" alt="School classroom block" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>School Classroom Block</h4>
+                                <p>Agadez, Niger • 2024</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Educational</span>
+                                    <span class="project-tag">Public</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-6')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="specialized">
+                        <img src="/assets/images/project-water-1.jpg" alt="Water storage facility" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Water Storage Facility</h4>
+                                <p>Tahoua, Niger • 2023</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Infrastructure</span>
+                                    <span class="project-tag">Water</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-7')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="specialized">
+                        <img src="/assets/images/project-health-1.jpg" alt="Health center construction" class="portfolio-image" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Rural Health Center</h4>
+                                <p>Tillabéri, Niger • 2023</p>
+                                <div class="project-details">
+                                    <span class="project-tag">Healthcare</span>
+                                    <span class="project-tag">Rural</span>
+                                </div>
+                                <div class="portfolio-actions">
+                                    <button class="btn btn-primary btn-sm" onclick="openProjectModal('project-8')">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Project -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Featured Project Spotlight</h2>
+                
+                <div class="featured-project">
+                    <div class="grid-2">
+                        <div>
+                            <img src="/assets/images/featured-project-main.jpg" alt="Featured project - Modern commercial complex" class="featured-image" loading="lazy">
+                        </div>
+                        
+                        <div class="featured-content">
+                            <h3>Modern Commercial Complex</h3>
+                            <p class="project-location">Niamey, Niger • Completed 2024</p>
+                            
+                            <p>A landmark commercial development featuring mixed-use spaces with retail units, offices, and community facilities. This project showcases our expertise in complex structural design and modern architectural solutions.</p>
+                            
+                            <div class="project-highlights">
+                                <h4>Project Highlights:</h4>
+                                <ul>
+                                    <li><strong>Size:</strong> 1,200m² built area across 3 levels</li>
+                                    <li><strong>Features:</strong> 12 retail units, 18 offices, conference facilities</li>
+                                    <li><strong>Innovation:</strong> First BIM-designed building in the region</li>
+                                    <li><strong>Sustainability:</strong> Rainwater harvesting and solar-ready design</li>
+                                    <li><strong>Timeline:</strong> Delivered on schedule in 14 months</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-services">
+                                <h4>Services Provided:</h4>
+                                <div class="service-tags">
+                                    <span class="service-tag">Structural Design</span>
+                                    <span class="service-tag">Architectural Plans</span>
+                                    <span class="service-tag">BIM Modeling</span>
+                                    <span class="service-tag">Site Supervision</span>
+                                    <span class="service-tag">Project Management</span>
+                                </div>
+                            </div>
+                            
+                            <div class="featured-actions">
+                                <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+                                <a href="https://wa.me/22796380877?text=I'd like to learn more about your commercial projects" class="btn btn-outline">Discuss Similar Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Project Process</h2>
+                
+                <div class="process-steps">
+                    <div class="grid-4">
+                        <div class="process-step card text-center">
+                            <div class="step-number">1</div>
+                            <h4>Consultation & Planning</h4>
+                            <p>Initial site assessment, requirements analysis, and feasibility study to understand your vision and constraints.</p>
+                        </div>
+                        
+                        <div class="process-step card text-center">
+                            <div class="step-number">2</div>
+                            <h4>Design & Engineering</h4>
+                            <p>Detailed architectural and structural design using modern BIM technology for precision and visualization.</p>
+                        </div>
+                        
+                        <div class="process-step card text-center">
+                            <div class="step-number">3</div>
+                            <h4>Documentation & Permits</h4>
+                            <p>Complete construction drawings, engineering calculations, and assistance with building permit applications.</p>
+                        </div>
+                        
+                        <div class="process-step card text-center">
+                            <div class="step-number">4</div>
+                            <h4>Construction Support</h4>
+                            <p>Site supervision, quality control, and ongoing support throughout the construction phase to ensure compliance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client Testimonials -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">What Our Clients Say</h2>
+                
+                <div class="grid-3">
+                    <div class="testimonial-card card">
+                        <p class="testimonial-text">"Exceptional structural engineering expertise. Our commercial building was completed on time and exceeded all safety requirements. The BIM models helped us visualize every detail."</p>
+                        <div class="testimonial-author">
+                            <strong>Ahmed Hassan</strong><br>
+                            <small>Developer, Niamey Commercial Complex</small>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card card">
+                        <p class="testimonial-text">"Professional service from start to finish. The structural calculations were thorough and the construction supervision ensured quality throughout our school project."</p>
+                        <div class="testimonial-author">
+                            <strong>Marie Dubois</strong><br>
+                            <small>NGO Director, Educational Facility</small>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card card">
+                        <p class="testimonial-text">"Outstanding communication and technical expertise. Our family home design perfectly balances traditional aesthetics with modern structural standards."</p>
+                        <div class="testimonial-author">
+                            <strong>Ibrahim Sani</strong><br>
+                            <small>Homeowner, Maradi Residence</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section">
+            <div class="container text-center">
+                <h2>Ready to Start Your Project?</h2>
+                <p class="mb-4">Join our growing list of satisfied clients across Niger and West Africa. Get professional structural engineering services that deliver results on time and within budget.</p>
+                
+                <div class="hero-actions">
+                    <a href="contact.html" class="btn btn-primary btn-lg">Start Your Project</a>
+                    <a href="services.html" class="btn btn-outline btn-lg">Our Services</a>
+                    <a href="https://wa.me/22796380877?text=I'd like to discuss my construction project" class="btn btn-secondary btn-lg">💬 WhatsApp</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Structural Architecture</h3>
+                    <p>Professional structural engineering and architectural services across Niger and West Africa.</p>
+                    
+                    <div class="contact-info">
+                        <p>📞 <a href="tel:+22796380877">+227 96 38 08 77</a></p>
+                        <p>✉️ <a href="mailto:bacseried@gmail.com">bacseried@gmail.com</a></p>
+                        <p>💬 <a href="https://wa.me/22796380877">WhatsApp</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="services.html#structural-design">Structural Design</a></li>
+                        <li><a href="services.html#plans">Building Plans</a></li>
+                        <li><a href="services.html#supervision">Site Supervision</a></li>
+                        <li><a href="services.html#bim">BIM Modeling</a></li>
+                        <li><a href="services.html#training">Training</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                    
+                    <h4>Languages</h4>
+                    <div class="language-switcher">
+                        <a href="../en/portfolio.html" class="lang-btn active">English</a>
+                        <a href="../fr/portfolio.html" class="lang-btn">Français</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Structural Architecture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- Portfolio-specific JavaScript -->
+    <script>
+        // Portfolio filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.portfolio-filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter portfolio items
+                    portfolioItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+        
+        // Project modal functionality
+        function openProjectModal(projectId) {
+            // This would typically open a modal with detailed project information
+            // For now, we'll redirect to the contact page with a project-specific message
+            const projectTitles = {
+                'project-1': 'Modern Family House project in Niamey',
+                'project-2': 'Traditional Modern House in Maradi',
+                'project-3': 'Luxury Duplex Villa in Zinder',
+                'project-4': 'Commercial Center in Dosso',
+                'project-5': 'Office Complex in Niamey',
+                'project-6': 'School Classroom Block in Agadez',
+                'project-7': 'Water Storage Facility in Tahoua',
+                'project-8': 'Rural Health Center in Tillabéri'
+            };
+            
+            const projectTitle = projectTitles[projectId] || 'project';
+            const message = `I'm interested in learning more about the ${projectTitle}`;
+            window.open(`https://wa.me/22796380877?text=${encodeURIComponent(message)}`, '_blank');
+        }
+    </script>
+</body>
+</html>

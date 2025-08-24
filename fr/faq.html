@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foire Aux Questions (FAQ) | Structural Architecture</title>
+    <meta name="description" content="Trouvez des réponses aux questions courantes sur les services d'ingénierie structurelle, plans de bâtiment, supervision de construction et conception architecturale au Niger et en Afrique de l'Ouest.">
+    <meta name="keywords" content="FAQ ingénierie structurelle, questions construction Niger, FAQ architecture, questions services ingénierie, consultation engineering FAQ">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://structuralarchitecture.info/fr/faq.html">
+    <meta property="og:title" content="Foire Aux Questions (FAQ) | Structural Architecture">
+    <meta property="og:description" content="Obtenez des réponses aux questions courantes sur nos services d'ingénierie structurelle et architecturale à travers le Niger et l'Afrique de l'Ouest.">
+    <meta property="og:image" content="https://structuralarchitecture.info/assets/images/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://structuralarchitecture.info/fr/faq.html">
+    
+    <!-- Alternate language versions -->
+    <link rel="alternate" hreflang="en" href="https://structuralarchitecture.info/en/faq.html">
+    <link rel="alternate" hreflang="fr" href="https://structuralarchitecture.info/fr/faq.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Quels services d'ingénierie structurelle fournissez-vous ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nous fournissons des services complets d'ingénierie structurelle incluant la conception et analyse structurelle, plans de bâtiment, supervision de chantier, modélisation BIM, et conseil en ingénierie pour projets résidentiels, commerciaux et spécialisés."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Combien de temps faut-il pour compléter les plans de bâtiment ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Les plans de bâtiment standards prennent généralement 5-10 jours ouvrables à compléter, selon la complexité du projet. Les conceptions sur mesure peuvent prendre 2-3 semaines. Nous fournissons des délais détaillés lors de la consultation initiale."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="./" class="logo">Structural Architecture</a>
+                
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li><a href="./" class="nav-link">Accueil</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="plans.html" class="nav-link">Plans</a></li>
+                        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li><a href="about.html" class="nav-link">À propos</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    
+                    <div class="language-switcher">
+                        <button class="lang-btn" data-lang="en">EN</button>
+                        <button class="lang-btn active" data-lang="fr">FR</button>
+                    </div>
+                    
+                    <button class="theme-switcher" title="Basculer en mode sombre">🌙</button>
+                </nav>
+                
+                <button class="mobile-menu-toggle" aria-label="Basculer le menu mobile">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Foire Aux Questions</h1>
+                    <p>Trouvez des réponses aux questions courantes sur nos services d'ingénierie structurelle, plans de bâtiment et processus de construction. Vous ne trouvez pas ce que vous cherchez ? Contactez-nous directement.</p>
+                    
+                    <div class="hero-actions">
+                        <a href="#technical-faq" class="btn btn-primary btn-lg">Questions Techniques</a>
+                        <a href="#commercial-faq" class="btn btn-outline btn-lg">Questions Commerciales</a>
+                        <a href="contact.html" class="btn btn-secondary btn-lg">Poser une Question</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Search -->
+        <section class="section-sm">
+            <div class="container">
+                <div class="faq-search">
+                    <input type="text" id="faq-search" placeholder="Rechercher dans les FAQ..." class="search-input">
+                    <div class="popular-topics">
+                        <span>Sujets populaires :</span>
+                        <button class="topic-tag" onclick="filterFAQ('plans')">Plans de Bâtiment</button>
+                        <button class="topic-tag" onclick="filterFAQ('pricing')">Tarification</button>
+                        <button class="topic-tag" onclick="filterFAQ('timeline')">Délais</button>
+                        <button class="topic-tag" onclick="filterFAQ('permits')">Permis</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical FAQ Section -->
+        <section class="section" id="technical-faq">
+            <div class="container">
+                <h2 class="text-center mb-5">Questions Techniques</h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-category">
+                        <h3>Ingénierie Structurelle</h3>
+                        
+                        <div class="faq-item" data-category="structural">
+                            <div class="faq-question">
+                                <h4>Quels services d'ingénierie structurelle fournissez-vous ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Nous fournissons des services complets d'ingénierie structurelle incluant :</p>
+                                <ul>
+                                    <li>Analyse et calculs de conception structurelle</li>
+                                    <li>Conception de fondations et analyse du sol</li>
+                                    <li>Conception de structures en béton armé et en acier</li>
+                                    <li>Calculs de charge et évaluations de sécurité</li>
+                                    <li>Modifications structurelles et renforcement</li>
+                                    <li>Vérification de conformité aux codes</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="faq-item" data-category="structural">
+                            <div class="faq-question">
+                                <h4>Quels codes et normes de construction suivez-vous ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Nous suivons les codes et normes de construction reconnus internationalement incluant :</p>
+                                <ul>
+                                    <li>Normes de conception Eurocode (EC0, EC1, EC2, EC8)</li>
+                                    <li>Normes DTU (Documents Techniques Unifiés) françaises</li>
+                                    <li>Codes de construction régionaux ouest-africains</li>
+                                    <li>Réglementations nationales de construction du Niger</li>
+                                    <li>Normes internationales de conception sismique</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h3>Plans de Bâtiment & Conception</h3>
+                        
+                        <div class="faq-item" data-category="plans">
+                            <div class="faq-question">
+                                <h4>Que comprennent vos forfaits de plans de bâtiment ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Nos forfaits complets de plans de bâtiment incluent :</p>
+                                <ul>
+                                    <li><strong>Dessins Architecturaux :</strong> Plan de site, plans d'étage, élévations, sections</li>
+                                    <li><strong>Dessins Structurels :</strong> Plan de fondation, plan de charpente, détails d'armatures</li>
+                                    <li><strong>Calculs d'Ingénierie :</strong> Analyse structurelle, calculs de charge</li>
+                                    <li><strong>Spécifications :</strong> Listes de matériaux, spécifications de construction</li>
+                                    <li><strong>Visualisation 3D :</strong> Modèles BIM et rendus</li>
+                                    <li><strong>Documentation :</strong> Guides de projet et matériaux de support</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="faq-item" data-category="bim">
+                            <div class="faq-question">
+                                <h4>Utilisez-vous le BIM (Building Information Modeling) ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Oui, nous maîtrisons la technologie BIM en utilisant Autodesk Revit pour :</p>
+                                <ul>
+                                    <li>Modélisation architecturale et structurelle 3D</li>
+                                    <li>Détection de conflits et coordination</li>
+                                    <li>Quantitatifs et listes de matériaux</li>
+                                    <li>Visualisation améliorée pour les clients</li>
+                                    <li>Précision améliorée et réduction des erreurs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Commercial FAQ Section -->
+        <section class="section bg-light" id="commercial-faq">
+            <div class="container">
+                <h2 class="text-center mb-5">Questions Commerciales</h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-category">
+                        <h3>Tarification & Paiement</h3>
+                        
+                        <div class="faq-item" data-category="pricing">
+                            <div class="faq-question">
+                                <h4>Combien coûtent les plans de bâtiment ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Les coûts des plans de bâtiment varient selon plusieurs facteurs :</p>
+                                <ul>
+                                    <li><strong>Taille et complexité du projet</strong></li>
+                                    <li><strong>Type de bâtiment</strong> (résidentiel, commercial, spécialisé)</li>
+                                    <li><strong>Niveau de détail requis</strong></li>
+                                    <li><strong>Modifications personnalisées nécessaires</strong></li>
+                                </ul>
+                                <p>Nous fournissons des devis détaillés après avoir compris vos exigences spécifiques. Contactez-nous pour une consultation et estimation gratuite.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item" data-category="pricing">
+                            <div class="faq-question">
+                                <h4>Quels modes de paiement acceptez-vous ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Nous acceptons divers modes de paiement pour votre commodité :</p>
+                                <ul>
+                                    <li>Virements bancaires (locaux et internationaux)</li>
+                                    <li>Monnaie mobile (Orange Money, Airtel Money)</li>
+                                    <li>Paiements en espèces (pour clients locaux)</li>
+                                    <li>Plans de paiement échelonné (pour projets plus importants)</li>
+                                </ul>
+                                <p>Les conditions de paiement sont généralement 50% d'acompte et 50% à l'achèvement des plans.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h3>Processus & Délais</h3>
+                        
+                        <div class="faq-item" data-category="timeline">
+                            <div class="faq-question">
+                                <h4>Combien de temps faut-il pour compléter les plans de bâtiment ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Les délais dépendent de la complexité du projet :</p>
+                                <ul>
+                                    <li><strong>Plans résidentiels standards :</strong> 5-10 jours ouvrables</li>
+                                    <li><strong>Conceptions résidentielles sur mesure :</strong> 2-3 semaines</li>
+                                    <li><strong>Bâtiments commerciaux :</strong> 3-6 semaines</li>
+                                    <li><strong>Structures complexes/spécialisées :</strong> 4-8 semaines</li>
+                                </ul>
+                                <p>Nous fournissons des calendriers de projet détaillés et vous tenons informé tout au long du processus de conception.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item" data-category="permits">
+                            <div class="faq-question">
+                                <h4>Aidez-vous avec les demandes de permis de construire ?</h4>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Oui, nous fournissons un support complet pour les permis :</p>
+                                <ul>
+                                    <li>Dessins et documentation prêts pour permis</li>
+                                    <li>Orientation sur les exigences de permis locaux</li>
+                                    <li>Assistance avec la préparation de demande de permis</li>
+                                    <li>Réponse aux commentaires de révision municipale</li>
+                                    <li>Liaison avec les autorités locales si nécessaire</li>
+                                </ul>
+                                <p>Nos plans sont conçus pour respecter toutes les exigences de code de construction local pour une approbation de permis fluide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Still Have Questions -->
+        <section class="section">
+            <div class="container text-center">
+                <h2>Vous Avez Encore des Questions ?</h2>
+                <p class="mb-4">Vous ne trouvez pas la réponse que vous cherchez ? Notre équipe est là pour aider avec toutes questions sur l'ingénierie structurelle, plans de bâtiment ou services de construction.</p>
+                
+                <div class="contact-options">
+                    <div class="grid-3">
+                        <div class="contact-option card">
+                            <div class="contact-icon">💬</div>
+                            <h4>WhatsApp</h4>
+                            <p>Questions rapides et chat en temps réel</p>
+                            <a href="https://wa.me/22796380877?text=J'ai une question sur vos services" class="btn btn-primary">Nous Contacter</a>
+                        </div>
+                        
+                        <div class="contact-option card">
+                            <div class="contact-icon">📞</div>
+                            <h4>Appel Téléphonique</h4>
+                            <p>Consultation détaillée et discussion</p>
+                            <a href="tel:+22796380877" class="btn btn-primary">Appeler Maintenant</a>
+                        </div>
+                        
+                        <div class="contact-option card">
+                            <div class="contact-icon">✉️</div>
+                            <h4>Email</h4>
+                            <p>Demandes formelles et documentation</p>
+                            <a href="contact.html" class="btn btn-primary">Envoyer Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Structural Architecture</h3>
+                    <p>Services professionnels d'ingénierie structurelle et d'architecture à travers le Niger et l'Afrique de l'Ouest.</p>
+                    
+                    <div class="contact-info">
+                        <p>📞 <a href="tel:+22796380877">+227 96 38 08 77</a></p>
+                        <p>✉️ <a href="mailto:bacseried@gmail.com">bacseried@gmail.com</a></p>
+                        <p>💬 <a href="https://wa.me/22796380877">WhatsApp</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="services.html#structural-design">Conception Structurelle</a></li>
+                        <li><a href="services.html#plans">Plans de Bâtiment</a></li>
+                        <li><a href="services.html#supervision">Supervision de Chantier</a></li>
+                        <li><a href="services.html#bim">Modélisation BIM</a></li>
+                        <li><a href="services.html#training">Formation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="pricing.html">Tarifs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Légal</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="privacy.html">Politique de Confidentialité</a></li>
+                        <li><a href="terms.html">Conditions de Service</a></li>
+                    </ul>
+                    
+                    <h4>Langues</h4>
+                    <div class="language-switcher">
+                        <a href="../en/faq.html" class="lang-btn">English</a>
+                        <a href="../fr/faq.html" class="lang-btn active">Français</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Structural Architecture. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+    
+    <!-- FAQ-specific JavaScript -->
+    <script>
+        // FAQ search functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('faq-search');
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    const searchTerm = this.value.toLowerCase();
+                    
+                    faqItems.forEach(item => {
+                        const question = item.querySelector('.faq-question h4').textContent.toLowerCase();
+                        const answer = item.querySelector('.faq-answer').textContent.toLowerCase();
+                        
+                        if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = searchTerm === '' ? 'block' : 'none';
+                        }
+                    });
+                });
+            }
+        });
+        
+        // Filter FAQ by topic
+        function filterFAQ(topic) {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const category = item.getAttribute('data-category');
+                if (topic === 'all' || category === topic) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            // Clear search input
+            const searchInput = document.getElementById('faq-search');
+            if (searchInput) {
+                searchInput.value = '';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://structuralarchitecture.info/sitemap.xml
+
+# Disallow sensitive areas (none for this site)
+# Disallow: /admin/
+
+# Allow indexing of all languages
+Allow: /en/
+Allow: /fr/
+
+# Crawl delay (optional)
+Crawl-delay: 1
